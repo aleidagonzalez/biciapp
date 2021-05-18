@@ -6,9 +6,10 @@
 }
 
 .navbar{
-  min-height: 120px;
-   font-weight: larger ;
-  background-color:white
+    width: 100%;
+     font-weight: larger ;
+   background-color:#ffffb8
+  
    }
 
    .nav-tabs{
@@ -35,12 +36,13 @@
 
 .home_body {
 				
-    background-color: rgb(194, 241, 241);
-    width:100%;
+    background-color: rgb(255, 255, 255);
+    width:90%;
     background-repeat: repeat;
     background-size: cover;
    
 }
+
 .bienvenido-home{
     margin-left: 300px;
     margin-right:300px ;
@@ -49,10 +51,16 @@
     font-family: Roboto,-apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: normal;
     font-size: 1.5rem;
-   color :#000000
+   color :  #004aad
 
 }
 
+.card-body-button{
+    background-color: #ff999b;
+} 
+.card-body{
+    background-color: #f8cacb;
+}
 .login_body {
     background-image:url("https://cdn.pixabay.com/photo/2018/11/27/18/47/bike-3842079_1280.jpg");
     width:100%;
@@ -102,11 +110,12 @@ footer .footerB {
  .css-header{
     display: inline;
     text-align: center;
+    color: white;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.5 rem;
     font-weight: 500;
     line-height: 1.2;
-    background-color: rgb(255, 255, 255);
+    background-color: #004aad;
 }
 
 .css-body{
@@ -116,14 +125,14 @@ footer .footerB {
     font-size: 1.5 rem;
     font-weight: 500;
     line-height: 1.2;
-    background-color: #ccfbff;
+    background-color: #ffffff;
 }
 .header-profile{
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.5 rem;
     font-weight: 500;
     line-height: 1.2;
-    background-color: rgb(255, 255, 255);
+    background-color:#ffffff;
 }
 
 .body-profile{
@@ -132,7 +141,7 @@ footer .footerB {
     font-size: 1.5 rem;
     font-weight: 500;
     line-height: 1.2;
-    background-color: #ccfbff;
+    background-color: #ffffff;
 
 }
 .text-body{
@@ -141,8 +150,9 @@ footer .footerB {
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.5 rem;
     line-height: 1.2;
-    background-color: rgb(203, 217, 255);
+    background-color: white;
 }
+
 
 .text-header{
 display: inline;
@@ -150,8 +160,9 @@ display: inline;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.5 rem;
     font-weight: 500;
+   
     line-height: 1.2;
-    background-color: rgb(157, 181, 255);
+    background-color:#d9e9ff;
 }
  .card-img-top{
      width: 500px;
@@ -172,6 +183,7 @@ display: inline;
 }
 
 body{
-    width: 90%;
+    width: 100%;
     margin:auto;
+    background-color: #ffffb8;
 }

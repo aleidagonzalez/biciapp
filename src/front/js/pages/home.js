@@ -63,7 +63,7 @@ export const Home = () => {
 			</p>
 			<center>
 				<Link to={"/events"}>
-					<div className="card-body rounded-pill p-3 text-center border-0 shadow ">
+					<div className="card-body-button rounded-pill p-3 text-center border-0 shadow ">
 						<h5 className="text-center ">Quiero saber más</h5>
 					</div>
 				</Link>
