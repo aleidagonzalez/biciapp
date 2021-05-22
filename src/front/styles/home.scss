@@ -8,7 +8,7 @@
 .navbar{
     width: 100%;
      font-weight: larger ;
-   background-color:#ffffb8
+   background-color:#a59ce1
   
    }
 
@@ -56,10 +56,10 @@
 }
 
 .card-body-button{
-    background-color: #ff999b;
+    background-color: #a59ce1;
 } 
 .card-body{
-    background-color: #f8cacb;
+    background-color: #a59ce1;
 }
 .login_body {
     background-image:url("https://cdn.pixabay.com/photo/2018/11/27/18/47/bike-3842079_1280.jpg");
@@ -90,21 +90,6 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-
-
-.madeBy{
-    align-items: center;
-}
-.footer{
-    display: inline-flex;
-}
-footer .footerB {
-    align-items: center;
-}
-
-
- 
 
 
  .css-header{
@@ -185,5 +170,11 @@ display: inline;
 body{
     width: 100%;
     margin:auto;
-    background-color: #ffffb8;
+    background-color: whitesmoke;
+}
+
+.footer{
+    align-items: flex center;
+    background-color: #a59ce1;
+    width: 100%;
 }

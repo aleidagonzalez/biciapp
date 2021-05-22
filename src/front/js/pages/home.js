@@ -54,7 +54,7 @@ export const Home = () => {
 			</div>
 
 			<p className="bienvenido-home text-justify">
-				<h1 className="text-center">Bienvenido a BiciApp</h1>
+				<h1 className="text-center mb-5">Bienvenido a BiciApp</h1>
 				<span>Estamos encantados de tenerte por aquí y esperamos conocerte en nuestra próxima actividad.</span>
 				<p>
 					Aquí debajo encontrarás una muestra de lo que acostumbramos a hacer. No dejes de visitar la web ya
@@ -63,13 +63,13 @@ export const Home = () => {
 			</p>
 			<center>
 				<Link to={"/events"}>
-					<div className="card-body-button rounded-pill p-3 text-center border-0 shadow ">
+					<button className="card-body-button rounded-pill p-3 text-center border-0 shadow ">
 						<h5 className="text-center ">Quiero saber más</h5>
-					</div>
+					</button>
 				</Link>
 			</center>
 
-			<div className="container py-5 my-5" />
+			<div className="container py-5 " />
 			<div className="row text-center ">
 				<div className="col mx-auto mb-3">
 					<h2 className="text-black mb-5">PROXIMAS ACTIVIDADES</h2>
